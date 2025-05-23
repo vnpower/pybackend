@@ -43,7 +43,7 @@ def get_shape_name(approx):
         return "Unknown"
 
 # Thay đổi đường dẫn tới file video của bạn
-video_path = './floor_videos/floor_ver1.mp4'  # <- chỉnh lại tên file của bạn ở đây
+video_path = './floor_videos/floor_ver1.mp4'  # <- chỉnh lại tên file ở đây
 cap = cv2.VideoCapture(video_path)
 
 while cap.isOpened():
